@@ -19,7 +19,6 @@ export default {
     addTodo(event) {
       event.preventDefault();
       const newTodo = {
-        id: 5,
         title: this.title,
         completed: false
       }
